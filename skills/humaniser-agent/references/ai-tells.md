@@ -18,6 +18,16 @@
 - Summary sentence repeating the paragraph at the end → delete it.
 - Rhetorical questions as transitions ("So what does this mean?") → just say it.
 
+## Footers to remove
+Strip boilerplate that sits at the bottom of a document, slide, email or message and adds nothing for the reader:
+- Running labels repeated on every page or slide ("Program X · Guide", "Internal use", the document title again).
+- Decorative footer bands, taglines and slogans ("Accelerating ideas. Building impact.") unless a brand template requires them.
+- AI or tool credits ("Generated with…", "Drafted by AI").
+- Stacked sign-offs and disclaimers ("Best regards" + "Kind regards", or a confidentiality notice nobody asked for).
+- Trailing "Sources" or "Notes" blocks in messages that don't need them.
+
+Keep only what the reader actually needs: page or slide numbers on long documents, a single sign-off, and legally or contractually required notices (confidentiality on client documents, for example). When unsure whether a footer is required, keep it and mention it in the notes.
+
 ## Make it specific
 - Replace abstractions with the concrete thing: "significant progress" → "3 of 5 teams signed pilots".
 - Name the person, the date, the number.
