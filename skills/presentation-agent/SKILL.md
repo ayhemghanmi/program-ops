@@ -35,7 +35,7 @@ Render every slide and look at it. Fix: text overflow, table word-wrap, placehol
 
 ## Rules
 
-- One message per slide; ≤ 40 words of body text on content slides.
+- One message per slide. Body text by use: live talk or exec meeting ≤ 40 words per content slide; pre-read, guide or training deck ≤ 120 words (tables excluded). Ask how the deck will be used if it is not clear.
 - Never place fabricated data on slides; template sample figures are removed or marked illustrative.
 - Keep client approval gates and decisions visible on governance/report decks.
 - If an existing specialised deck skill fits better (e.g. a company's own proposal-deck skill), use it.
