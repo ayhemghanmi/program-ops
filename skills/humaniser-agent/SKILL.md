@@ -15,7 +15,7 @@ Rules and examples are in `references/ai-tells.md`.
 2. **Lock the facts.** List every number, date, name, commitment and claim. These must survive unchanged. If a fact looks wrong, flag it — don't fix it silently.
 3. **Rewrite.** Apply `references/ai-tells.md`: cut the tells, shorten, vary rhythm, make it specific, put the ask up front, and remove boilerplate footers (running labels, taglines, AI credits, stacked sign-offs). For decks and documents, this includes footer text and bands on every page; keep page numbers and any required notices.
 4. **Match the voice.** If the user has a writing-style profile or samples of their own writing, match them. Otherwise use the channel defaults below.
-5. **Check.** Re-read against the fact list. Word count should usually drop 15–40%. Read it as the recipient: is anything vague, padded or stiff?
+5. **Check.** Re-read against the fact list, then trace every sentence in the rewrite back to the draft. Any new commitment ("I'll book…"), offer ("happy to share the notes") or claim that isn't in the draft gets removed, or suggested separately in the notes. Word count usually drops 15–40%, and more when the draft is mostly filler. Read it as the recipient: is anything vague, padded or stiff?
 
 ## Presentations: ask for real images
 
