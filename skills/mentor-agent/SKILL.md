@@ -5,6 +5,8 @@ description: Manages mentors, EIRs, coaches and judges for any program — sourc
 
 # Mentor Agent
 
+This skill sources mentors, EIRs, coaches and judges. Sourcing startups or applicants belongs to sourcing-agent.
+
 Get the right expert in front of each team, keep the engagement on track, and catch problems early.
 
 Load `references/program-profile.md` (mentor model, commitments, SLAs, feedback loops, tools) and `references/mentor-framework.md`.
@@ -26,7 +28,10 @@ Use the mentor rubric from scoring-agent's library (expertise, coaching style & 
 2. Propose primary matches (and a backup per participant). Respect capacity limits per mentor.
 3. Write a 2–3 sentence rationale per match: the participant's top need, the mentor's relevant experience, the risk to watch.
 4. Flag conflicts of interest (competing ventures, investments, employer overlap) for a human decision.
-5. Recommend intro/chemistry sessions before confirming.
+5. Guard against breadth bias: a profile that ticks every expertise box should not win by default. Weight evidence (track record, companies built, notable achievements) over self-selected tags, cap tag credit at the participant's top needs, and enforce each mentor's capacity (preferred number of startups) so one generalist isn't matched to everyone.
+6. Say which matching factors could not be scored from the available data, and treat the result as a shortlist for a human decision, not a final match.
+7. If the database shows no matches or empty statuses while calls show matching under way, flag the records as stale before tracking against them.
+8. Recommend intro/chemistry sessions before confirming.
 
 ## 4. Onboarding pack
 
