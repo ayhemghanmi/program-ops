@@ -17,6 +17,22 @@ Rules and examples are in `references/ai-tells.md`.
 4. **Match the voice.** If the user has a writing-style profile or samples of their own writing, match them. Otherwise use the channel defaults below.
 5. **Check.** Re-read against the fact list. Word count should usually drop 15–40%. Read it as the recipient: is anything vague, padded or stiff?
 
+## Presentations: ask for real images
+
+Icons and shapes alone make a deck look machine-made. When humanising a presentation:
+
+1. Before rebuilding, ask the user to upload real photos. Name the specific slides that would benefit and what kind of picture fits each, for example:
+   - Cover or closing: the team, the venue, or a moment from a past program
+   - Participant or cohort slides: founders, product shots or team photos
+   - Mentor, speaker or partner slides: headshots and logos the user has rights to use
+   - Event, workshop or demo day slides: real photos from the session
+   - Results or impact slides: a photo from the moment the result happened (a pilot site, a signing, a pitch)
+2. Ask for logos, headshots and event photos the organisation already owns or has permission to use. Mention that photos of people should be ones those people have agreed to.
+3. Place the uploaded images on the slides that fit them (crop to the frame, never stretch), and keep icons only where no photo fits.
+4. If the user has no photos, or doesn't reply, keep the current visuals and list the slides where a photo would help, so it can be added later.
+
+Never use AI-generated pictures of real people, invent screenshots or results, or pull images from the web without the user's go-ahead.
+
 ## Channel defaults
 
 | Channel | Voice |
