@@ -12,7 +12,7 @@ Load `references/program-profile.md` (for the base name and tools) and `referenc
 ## Read sequence (always)
 
 1. `search_bases` using the base name from the profile (or `list_bases` and rank candidates) → base ID. Confirm with the user if more than one plausibly matches.
-2. `list_tables_for_base` → table and field IDs.
+2. `list_tables_for_base` → table and field IDs. Large bases return very large schemas: save the result to a file and read only the tables you need. Use the exact table names from the profile's "Key tables". If several tables could fit (e.g. three applications tables), compare record counts and latest created dates, tell the user which looks live, and confirm before using it. Never assume field names carry over between tables; read each table's own fields.
 3. `get_table_schema` before filtering on any single/multi-select (choice IDs).
 4. `list_records_for_table` with filters, field selection and sort. Page through large sets, save to a file, compute in code.
 
