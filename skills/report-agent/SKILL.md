@@ -39,7 +39,7 @@ Drop any section with nothing real to say.
 
 1. **Headline** — one sentence on the state of the program this period.
 2. **Progress vs plan** — milestones hit, due, approvals pending (name the gate).
-3. **KPIs** — each with value, target, direction vs last period (↑ ↓ →).
+3. **KPIs** — each with value, target, direction vs last period (↑ ↓ →). In a first report there is nothing to compare against, so say "first report, no trend yet".
 4. **Participant highlights** — one line per team, one concrete achievement each.
 5. **Risks & blockers** — risk, impact, owner, ask. Common categories: participant dropout, mentor unavailability, attendance, KPI underperformance, partner/vendor delays.
 6. **Decisions needed** — numbered, each with the deciding level from the profile's escalation path.
