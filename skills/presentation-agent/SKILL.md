@@ -42,4 +42,4 @@ Render every slide and look at it. Fix: text overflow, table word-wrap, placehol
 
 ## Output
 
-The deck, a one-line summary, and a list of placeholders to fill before presenting, including slides still waiting for a real photo.
+The deck (named per humaniser-agent's file-name rule: no dashes), a one-line summary, and a list of placeholders to fill before presenting, including slides still waiting for a real photo.
