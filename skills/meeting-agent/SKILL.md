@@ -21,14 +21,14 @@ Steering committee · client update · internal standup · mentor/EIR sync · se
 
 ## 3. Extract
 
-- **Attendees** — from the meeting record; mark anyone only mentioned as "referenced".
+- **Attendees** — separate who was invited from who actually spoke (the transcript's speakers). Invitees who never spoke are listed as "invited, not heard" unless the user confirms they attended. Mark anyone only mentioned as "referenced".
 - **Decisions** — only what was actually agreed. Phrase as "Agreed: …" with who agreed. Suggestions and opinions are not decisions; put them under Discussion.
 - **Action items** — each needs: action (verb first, concrete), owner, due date, source (timestamp or quote). If the owner or date wasn't stated, write `[owner?]` / `[date?]` — never assign one.
 - **Open questions / parked items.**
 - **Risks or escalations** raised, with the escalation level from the profile.
 - **Approval gates** touched (e.g. client sign-offs) and their new state.
 
-Rules: attribute statements to speakers carefully; when the transcript is ambiguous, say so. No invented quotes. Keep sensitive personal remarks about participants (founders, mentors) out of minutes that go to a wider audience; flag them to the user instead.
+Rules: cross-check figures (revenue, funding, headcount, dates) against earlier meetings or records for the same participant and flag any that differ, quoting both with their source; attribute statements to speakers carefully; when the transcript is ambiguous, say so. No invented quotes. Keep sensitive personal remarks about participants (founders, mentors) out of minutes that go to a wider audience; flag them to the user instead. Mark commercially sensitive details (revenue, valuations, funding terms, client names, security clearances) as confidential and keep them out of wider-audience minutes unless the user says otherwise.
 
 ## 4. Write the minutes
 
