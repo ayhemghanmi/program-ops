@@ -25,7 +25,8 @@ Inspect the actual sheet structure before assuming columns. Detect row types by 
 ### Status — "where are we?"
 1. Read with openpyxl (data_only=True); parse dates.
 2. Against today's date compute: overdue (End < today, not Complete), due in the next 14 days, pending approvals, milestones hit/missed, items Blocked/Delayed.
-3. Reply with a one-line headline and a short table by phase: item, owner, due, status.
+3. Staleness check first: if most dated items are past due yet still Not Started/Pending, or key dates contradict the profile (e.g. an old kickoff date), lead with "the tracker looks out of date", list what contradicts it (meeting notes, the profile, the database), and ask the user to confirm statuses before treating anything as overdue.
+4. Reply with a one-line headline and a short table by phase: item, owner, due, status.
 
 ### Update the sheet
 1. Work on a copy; never overwrite the user's original.
