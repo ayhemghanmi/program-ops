@@ -13,7 +13,7 @@ Rules and examples are in `references/ai-tells.md`.
 
 1. **Read for purpose and audience.** Who is it for (client leadership, founders, mentors, public), what channel (email, WhatsApp, report, slide, LinkedIn), what should the reader do after reading?
 2. **Lock the facts.** List every number, date, name, commitment and claim. These must survive unchanged. If a fact looks wrong, flag it — don't fix it silently.
-3. **Rewrite.** Apply `references/ai-tells.md`: cut the tells, shorten, vary rhythm, make it specific, put the ask up front.
+3. **Rewrite.** Apply `references/ai-tells.md`: cut the tells, shorten, vary rhythm, make it specific, put the ask up front, and remove boilerplate footers (running labels, taglines, AI credits, stacked sign-offs). For decks and documents, this includes footer text and bands on every page; keep page numbers and any required notices.
 4. **Match the voice.** If the user has a writing-style profile or samples of their own writing, match them. Otherwise use the channel defaults below.
 5. **Check.** Re-read against the fact list. Word count should usually drop 15–40%. Read it as the recipient: is anything vague, padded or stiff?
 
