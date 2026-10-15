@@ -19,6 +19,8 @@ Load `references/program-profile.md` (brand, dates, governance) and `references/
 
 Collect the material before opening any build skill: report data (from report-agent or the database), plan status (program-agent), scores (scoring-agent), or the documents the user attached. Thin content in a polished template is the main failure mode.
 
+**Ask for real images at the same time.** Real photos make a deck feel human; icons alone look generated. In the same message where you confirm the outline, ask the user to upload photos and name which slides they'd go on (cover, team or cohort slides, mentors and speakers, event or demo day moments, impact stories), plus logos they have rights to use. Follow the image rules in humaniser-agent: no AI-generated people, no invented screenshots, no web images without the user's go-ahead, and people photos only with consent. If no photos arrive, build with icons and list where a photo would help in the final placeholder list.
+
 ## 3. Build
 
 1. Pick the recipe from `references/deck-recipes.md`; adjust to the content.
@@ -40,4 +42,4 @@ Render every slide and look at it. Fix: text overflow, table word-wrap, placehol
 
 ## Output
 
-The deck, a one-line summary, and a list of placeholders to fill before presenting.
+The deck, a one-line summary, and a list of placeholders to fill before presenting, including slides still waiting for a real photo.
