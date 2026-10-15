@@ -60,6 +60,7 @@ Last updated: [date] by [name]
 
 ## Tools
 - CRM / database: (e.g. Airtable base name)
+- Key tables: (purpose → exact table name, e.g. applications → "KUEC Applications"; mentors → "EIRs")
 - Portal: 
 - Documents:
 - Comms:
@@ -87,6 +88,8 @@ Last updated: [date] by [name]
 - Unknown facts stay as bracketed placeholders (`[Demo Day date]`). Never invent names, scores, figures, quotes or dates.
 - Conflicts between sources are flagged with both versions and the one used — never silently resolved.
 - Compute every number in code from the data; never estimate in prose.
+- Leave obvious test or dummy records (e.g. "Test Company", empty rows) out of counts, and say how many were left out.
+- Before reporting from a tracker or table, check it is current. If most items are past due but unchanged, or status fields are empty while other sources show activity, say the data looks stale and ask for an update rather than reporting it as fact.
 - Drafting is fine; sending, posting, or writing to a live system requires the user's explicit yes in chat.
 - Spreadsheets: Arial; blue font = input, black = formula/fixed, green = cross-tab link, yellow fill = key cell. Recalculate and confirm zero formula errors before delivery.
 - Dates written "15 Sep 2026"; times in the program's local time zone (state it).
