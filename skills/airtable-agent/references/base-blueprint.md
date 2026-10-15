@@ -12,3 +12,4 @@ Trim to what the program needs. Hackathons usually need tables 1–3, 5 and 8; m
 8. **Feedback** — session/workshop pulse (overall 1–5, takeaway, recommend Y/N, blockers), full workshop survey, mentor-session pulse; reviewer + reviewed date for SLA.
 9. **Judging** (events) — judge, team, round, criterion scores, comments, total (formula).
 10. **Partners & Leads** — investor/corporate, interest type, linked team, owner, follow-up status, next step date.
+11. **Sourcing Leads** — organisation, website, sector, stage signal, location, fit (Strong/Possible/Weak) + reason, source link, contact route, channel, owner, status (Not contacted → Contacted → Replied → Applied / Declined), do-not-contact flag, linked application.
