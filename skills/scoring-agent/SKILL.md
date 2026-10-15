@@ -41,6 +41,7 @@ Record due diligence, interview and pitch scores as given, side by side with the
 - Per criterion: each reviewer's mean and spread.
 - Flag items where reviewers differ by 2+ points (on a 5-point scale) and reviewers whose mean sits ≥0.75 from the panel.
 - Output a discussion list for the calibration meeting.
+- Combining reviewers: show each reviewer's scores side by side. Resolve 2+ point gaps in discussion first; then use the mean per criterion (median when there are 3+ reviewers and one is an outlier). State which method was used.
 
 ## 6. Ranking and shortlist
 
