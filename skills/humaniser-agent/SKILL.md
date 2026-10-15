@@ -33,6 +33,8 @@ Icons and shapes alone make a deck look machine-made. When humanising a presenta
 
 Never use AI-generated pictures of real people, invent screenshots or results, or pull images from the web without the user's go-ahead.
 
+**File names.** Presentation file names never contain dashes (no -, – or —). Use plain words separated by spaces, or underscores if a system needs them: "Kickoff Deck Oct 2026.pptx" or "Kickoff_Deck_Oct_2026.pptx", not "kickoff-deck-oct-2026.pptx". The same name carries over to any PDF export of the deck.
+
 ## Channel defaults
 
 | Channel | Voice |
