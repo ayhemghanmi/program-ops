@@ -1,6 +1,6 @@
 {
   "name": "program-ops",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Program operations skills for any accelerator, incubator, buildathon, hackathon or innovation program: reports, program management, sourcing, scoring, Airtable, meetings, mentors, presentations and humanised writing.",
   "author": { "name": "Ayhem Ghanmi" },
   "keywords": ["accelerator", "program management", "hackathon", "sourcing", "scoring", "airtable", "reporting"]
