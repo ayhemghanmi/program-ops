@@ -52,7 +52,7 @@ A short sourcing update for the weekly report: numbers vs target, top channels, 
 - Never fabricate companies, people, metrics or quotes. Every target row cites where it came from.
 - Writes to Airtable go through airtable-agent after the user confirms; nothing is emailed or posted without a clear yes.
 - Keep personal data minimal and inside the program's tools; follow the user's privacy and opt-out rules.
-- If the application form lacks a source/referral field, recommend adding one before launch, since channel tracking depends on it.
+- If the application form lacks a source/referral field, recommend adding one before launch, since channel tracking depends on it. If the field exists but is mostly empty, say channel analysis isn't possible yet, report the fill rate, and recommend making the field required.
 
 ## Output
 
