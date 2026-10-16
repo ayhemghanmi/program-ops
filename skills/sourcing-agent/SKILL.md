@@ -26,7 +26,7 @@ List the channels that fit this program (see the playbook): partner referrals (u
 - Sources: lists the user provides, their CRM or Airtable, partner nominations, past applicants and waitlists, event attendee lists they own, and public information (company websites, accelerator portfolios, news, public databases the user has access to) via web search.
 - One row per organisation: name, website, sector, stage signal, location, why it fits (one line with the source link), contact route (generic company email, founder's public business profile, or partner intro), source, status.
 - Deduplicate against the database and past applicants before adding anything.
-- Mark fit as Strong / Possible / Weak with the reason. Never invent traction, funding or team details; leave unknowns blank.
+- Mark fit as Strong / Possible / Weak with the reason. Never invent traction, funding or team details; leave unknown company details blank. Ask the user for program facts the outreach needs (deadline, application link, sender) before drafting.
 - Business contact details only. No personal phone numbers or home addresses, no scraping behind logins, no bought lists. Respect any "do not contact" or unsubscribe flags in the user's data.
 
 ## 4. Draft outreach
