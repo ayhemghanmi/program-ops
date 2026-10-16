@@ -54,7 +54,7 @@ Event reports add: participation funnel (registered → submitted → shortliste
 - Lead with the answer; no warm-up paragraph.
 - Statuses use the profile's vocabulary exactly.
 - Surface the profile's open flags when the report touches them.
-- Bracketed placeholders for anything missing; list them at the end under "To confirm before sending".
+- Ask the user about anything missing before finishing the draft. Whatever they can't answer yet stays as a bracketed placeholder, listed at the end under "To confirm before sending".
 - Never send. Draft an email (Gmail draft) only when asked, and show it first.
 - External-facing text goes through humaniser-agent's rules before delivery.
 
@@ -62,6 +62,6 @@ Event reports add: participation funnel (registered → submitted → shortliste
 
 - Weekly email: in the reply, or as a Gmail draft on request.
 - Monthly / review / impact reports: a document artifact; hand slides to presentation-agent.
-- Charts: a dashboard where numbers must be traceable.
+- Charts: a dashboard where numbers must be traceable (hand ongoing dashboards to dashboard-agent).
 
 Close with one line on what the report says, the file or link, and the "To confirm before sending" list.
