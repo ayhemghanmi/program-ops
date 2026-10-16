@@ -34,8 +34,13 @@ Inspect the actual sheet structure before assuming columns. Detect row types by 
 3. New items take the next number in their phase; new approvals use the sheet's existing marker.
 4. Recalculate, check for formula errors, and return a change log of every cell touched.
 
-### Build a new plan
-Given a proposal or brief, draft phases → tasks → owners → dates → approval gates → milestones, working back from the launch/demo date. Use the house spreadsheet conventions. Flag any task with no owner or that lands after its dependency.
+### Build a new plan / mastersheet
+Every new mastersheet must match the house format (the KUEC mastersheet). Follow `references/mastersheet-spec.md` exactly:
+1. Draft phases, tasks, owners, dates, client approval gates and milestones from the brief or proposal, using `references/plan-library.md` and working back from kickoff.
+2. Ask the user for anything the documents don't settle (kickoff date, length, client short name, approval gates, owners) before building. Propose dates; don't invent them silently.
+3. Build with `scripts/build_mastersheet.py` (in this skill's folder) from a plan JSON. Never hand-build the workbook.
+4. QA: recalculate (zero formula errors), render the Program Plan to an image and check it, then deliver with a summary of phases, tasks, approvals, milestones, date range and open questions.
+Flag any task with no owner or that lands after its dependency.
 
 ### Plan a week, phase or event day
 Pull the curriculum or agenda for that period. Check mentor/session commitments from the profile. Output: day, time, session, lead, participants, prep owner, materials. For event days (buildathon, hackathon, demo day), produce a run-of-show with buffers and owner per segment. Hand slides to presentation-agent.
