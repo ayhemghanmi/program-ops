@@ -23,7 +23,7 @@ Steering committee · client update · internal standup · mentor/EIR sync · se
 
 - **Attendees** — separate who was invited from who actually spoke (the transcript's speakers). Invitees who never spoke are listed as "invited, not heard" unless the user confirms they attended. Mark anyone only mentioned as "referenced".
 - **Decisions** — only what was actually agreed. Phrase as "Agreed: …" with who agreed. Suggestions and opinions are not decisions; put them under Discussion.
-- **Action items** — each needs: action (verb first, concrete), owner, due date, source (timestamp or quote). If the owner or date wasn't stated, write `[owner?]` / `[date?]` — never assign one.
+- **Action items** — each needs: action (verb first, concrete), owner, due date, source (timestamp or quote). If the owner or date wasn't stated, never assign one yourself: ask the user who owns it and by when, listing all such actions in one question. Use `[owner?]` / `[date?]` only if they don't know or aren't there to answer.
 - **Open questions / parked items.**
 - **Risks or escalations** raised, with the escalation level from the profile.
 - **Approval gates** touched (e.g. client sign-offs) and their new state.
