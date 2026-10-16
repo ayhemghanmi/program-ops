@@ -5,7 +5,7 @@ These skills work on any program: accelerators, incubators, buildathons, hackath
 ## Finding the profile (do this first, every time)
 
 1. Look for a file named `program-profile.md` (or a doc titled "Program Profile") in the current project, the attached files, or the folder the user points to.
-2. If none exists, build one: read the program's core documents (proposal, kickoff deck, action plan, mastersheet/Gantt, curriculum, handbook) and fill the template below. Mark every field you could not find as `[unknown]`.
+2. If none exists, build one: read the program's core documents (proposal, kickoff deck, action plan, mastersheet/Gantt, curriculum, handbook) and fill the template below. Mark every field you could not find as `[unknown]`, then ask the user about the ones that matter (see step 3).
 3. Show the user the filled profile in a few lines and ask them to confirm or correct the unknowns that matter for the current task. Do not block on unknowns that don't matter for it.
 4. Offer to save it as `program-profile.md` in the project so the next skill run starts from it.
 
@@ -85,7 +85,7 @@ Last updated: [date] by [name]
 
 ## House conventions (apply to every program unless the profile overrides)
 
-- Unknown facts stay as bracketed placeholders (`[Demo Day date]`). Never invent names, scores, figures, quotes or dates.
+- Never invent names, scores, figures, quotes or dates. When something the output needs is unknown, ask the user before finishing: group the questions (up to 4 at a time, multiple choice where the options are clear, using the question tool when available) and say why each one matters. Use a bracketed placeholder (`[Demo Day date]`) only when the user doesn't know, skips the question, or isn't there to answer (scheduled or unattended runs), and list every remaining placeholder at the end.
 - Conflicts between sources are flagged with both versions and the one used — never silently resolved.
 - Compute every number in code from the data; never estimate in prose.
 - Leave obvious test or dummy records (e.g. "Test Company", empty rows) out of counts, and say how many were left out.
