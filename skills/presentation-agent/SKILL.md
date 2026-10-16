@@ -27,7 +27,7 @@ Collect the material before opening any build skill: report data (from report-ag
 2. Write the slide outline: one action-title per slide (a sentence that states the point), plus the evidence under it. Show the outline to the user when the deck is 10+ slides.
 3. Build slide by slide. Charts use direct labels and highlight only the key value in the brand's accent color.
 4. Add speaker notes for anything presented live.
-5. Unknown names, dates and figures stay as bracketed placeholders.
+5. Ask the user for unknown names, dates and figures before building (batched, with the outline). Bracketed placeholders only for what they can't answer yet.
 
 ## 4. QA before delivery
 
