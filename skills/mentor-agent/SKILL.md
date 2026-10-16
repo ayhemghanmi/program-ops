@@ -35,7 +35,7 @@ Use the mentor rubric from scoring-agent's library (expertise, coaching style & 
 
 ## 4. Onboarding pack
 
-Assemble from the program's own documents; fill gaps with bracketed placeholders:
+Assemble from the program's own documents. Ask the user for anything missing (session cadence, SLA, dates); use bracketed placeholders only for what they can't answer yet:
 - Role definition and boundaries; session cadence and minimum commitment; response-time SLA
 - Program calendar and key milestones; participant profiles for their matches
 - First-session agenda and diagnostic; how to log sessions and actions; escalation path
