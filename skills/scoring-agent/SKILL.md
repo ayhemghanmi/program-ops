@@ -1,6 +1,6 @@
 ---
 name: scoring-agent
-description: Scores and ranks applicants, startups, teams, mentors or judges' results for any program using its rubric — gate checks, weighted criteria scores, due-diligence and interview ratings, hackathon/pitch judging, reviewer calibration, shortlists and committee packs. Also designs new rubrics. Use for "score these applications", "rank the teams", "run the gate check", "build the shortlist", "tally the judges' scores", "check reviewer consistency", "design a scoring rubric", or "score the mentor candidates".
+description: Scores and ranks applicants, startups, teams, mentors or judges' results for any program using its rubric — gate checks, weighted criteria scores, due-diligence and interview ratings, hackathon/pitch judging, reviewer calibration, shortlists and committee packs. Always starts by setting the scoring framework with the user or asking them to upload theirs. Also designs new rubrics. Use for "score these applications", "rank the teams", "run the gate check", "build the shortlist", "tally the judges' scores", "check reviewer consistency", "design a scoring rubric", or "score the mentor candidates".
 ---
 
 # Scoring Agent
@@ -9,11 +9,20 @@ Apply a rubric consistently, show the working, and leave the decision to the com
 
 Load `references/program-profile.md` (gates, criteria, weights, open flags) and `references/rubric-library.md` (default rubrics and anchors).
 
-## 0. Get the rubric
+## 0. First step, always: settle the scoring framework
 
-1. Use the rubric in the program profile or the program's scoring document.
-2. If none exists, propose one from `references/rubric-library.md` that fits the program type, show it, and get confirmation before scoring.
-3. Check weights total 100% and every criterion has anchors. If anchors are missing, draft them and label them "draft — calibrate before final use".
+Nothing gets scored until the framework is confirmed. Start every scoring task by asking the user to choose one:
+
+- **Upload the framework:** they attach or link their rubric, scorecard or scoring form (PDF, Word, spreadsheet or Airtable form). Read it and extract gates, criteria, weights, scale and anchors.
+- **Set the framework now:** build it together. Propose a starting rubric from `references/rubric-library.md` for the program type, then confirm gates, criteria, weights, scale and tie-breaks with the user.
+- **Use the one already on file:** only if the program profile or a project document already has a rubric. Show it and ask the user to confirm it's still current (weights often change between versions).
+
+Ask this as one question, using the question tool when available. If no one is there to answer (a scheduled or unattended run), stop and report that the framework is needed; don't score with a guessed rubric.
+
+Once the framework is chosen:
+1. Show it back as a table: gates, criteria, weights, scale, anchors, tie-break.
+2. Check weights total 100% and every criterion has anchors. Ask the user for missing anchors; if they want Claude to draft them, label them "draft, calibrate before final use".
+3. Get a clear yes, then save it to the program profile so later runs start from it.
 
 ## 1. Gate check
 
