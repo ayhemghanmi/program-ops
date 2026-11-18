@@ -1,0 +1,32 @@
+{
+  "name": "program-ops",
+  "owner": {
+    "name": "Ayhem Ghanmi"
+  },
+  "metadata": {
+    "description": "Program operations skills for any accelerator, incubator, buildathon, hackathon or innovation program: reports, program management, sourcing, scoring, Airtable, meetings, mentors, dashboards, presentations and humanised writing.",
+    "version": "0.4.2"
+  },
+  "plugins": [
+    {
+      "name": "program-ops",
+      "source": "./",
+      "description": "Program operations skills for any accelerator, incubator, buildathon, hackathon or innovation program: reports, program management, sourcing, scoring, Airtable, meetings, mentors, dashboards, presentations and humanised writing.",
+      "version": "0.4.2",
+      "author": {
+        "name": "Ayhem Ghanmi"
+      },
+      "keywords": [
+        "accelerator",
+        "program management",
+        "hackathon",
+        "sourcing",
+        "scoring",
+        "airtable",
+        "reporting",
+        "dashboards"
+      ],
+      "category": "workflow"
+    }
+  ]
+}
